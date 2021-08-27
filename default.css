@@ -13,6 +13,9 @@
   --previewShadow: #f0ead6;
 
   --buttonColor: black;
+
+  --color-stop1: #ef8d9c;
+  --color-stop2: #ffc39e;
 }
 
 
@@ -396,6 +399,10 @@ ul {
   padding: 1rem;
 }
 
+.card-item:hover {
+  transform: translateY(-15px);
+}
+
 @media (min-width: 40rem) {
   .card-item {
     width: 50%;
@@ -419,7 +426,7 @@ ul {
 
 .card-content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  background: linear-gradient(to bottom left, var(--color-stop1) 40%, var(--color-stop2) 100%);
 }
 
 .card-title {

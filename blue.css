@@ -13,4 +13,7 @@
 	--previewShadow: #111921;
 
 	--buttonColor: #17a2b8;
+
+	--color-stop1: rgb(25, 39, 52, 0.8);
+  --color-stop2: #17a2b8;
 }
